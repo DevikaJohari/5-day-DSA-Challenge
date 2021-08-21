@@ -42,7 +42,6 @@ void mergesortedarr(vector<int>& arr1, int size1, vector<int>& arr2, int size2)
         arr1[k]=arr1[i];
         k--;
         i--;
-
     }
     while(j>=0)
     {
@@ -60,32 +59,24 @@ void PrintElement(std::vector<int> array)
     {
         for(auto i=array.begin();i!=array.end();++i)
         {
-           
             cout<<*i<<" ";   
         }
         cout<<"\n";
 }
-
 int main()
 {
     int m,n;
     std::vector<int> arr1,arr2;
-    
     cout<<"Enter the sorted elements in First Array or -1 to end inserting \n";
     arr1=AddElement(m);
     cout<<"Enter the length of First Array \n";
     cin>>m;
     PrintElement(arr1);
-    cout<<"Enter the sorted elements in Second Array \n";
+    cout<<"Enter the sorted elements in Second Array or -1 to end inserting \n";
     arr2=AddElement(n);
-    cout<<"Enter the length of Second Array or -1 to end inserting \n";
+    cout<<"Enter the length of Second Array \n";
     cin>>n;
     PrintElement(arr2);
-    
     mergesortedarr(arr1,m,arr2,n);
-    
-
-
-
     return 0;
 }
