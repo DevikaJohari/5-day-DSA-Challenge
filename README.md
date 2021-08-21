@@ -18,3 +18,13 @@ Merge two sorted linked lists and return it as a sorted list. The list should be
 
 
 SOLUTION CODE MergeSortedList.cpp
+
+
+### Q3
+You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
+
+
+[Reference](https://leetcode.com/problems/merge-sorted-array/)
+
+
+SOLUTION CODE MergeArray.cpp
