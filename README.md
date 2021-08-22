@@ -14,6 +14,7 @@ SOLUTION CODE Two_Sum.cpp
 ### Q2
 Merge two sorted linked lists and return it as a sorted list. The list should be made by splicing together the nodes of the first two lists.
 
+
 [Reference](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 
@@ -28,3 +29,13 @@ You are given two integer arrays nums1 and nums2, sorted in non-decreasing order
 
 
 SOLUTION CODE MergeArray.cpp
+
+
+### Q4
+Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+
+[Reference](https://leetcode.com/problems/search-insert-position/)
+
+
+SOLUTION CODE SearchInsertPosition.cpp
