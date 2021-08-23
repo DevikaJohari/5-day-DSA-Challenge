@@ -39,3 +39,13 @@ Given a sorted array of distinct integers and a target value, return the index i
 
 
 SOLUTION CODE SearchInsertPosition.cpp
+
+
+### Q5
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+
+[Reference](https://leetcode.com/problems/valid-parentheses/)
+
+
+SOLUTION CODE ValidParentheses.cpp
